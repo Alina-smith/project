@@ -1,0 +1,544 @@
+<html>
+  <head>
+    <title>NEON Woody plant survey data: ACCE DTP analytical subset</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="application/ld+json">
+      {
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "NEON Woody plant survey data: ACCE DTP analytical subset",
+  "creator": [
+    {
+      "type": "Person",
+      "id": null,
+      "email": "absmith4@sheffield.ac.uk",
+      "affiliation": "University of Sheffield",
+      "name": "Alina Smith"
+    }
+  ],
+  "description": "This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.",
+  "datePublished": "17/4/2024",
+  "keywords": ["shrubs", "saplings", "woody"],
+  "funder": "National science foundation",
+  "temporalCoverage": "2015-05-18/2018-11-16",
+  "license": "CC-0",
+  "spatialCoverage": {
+    "type": "Place",
+    "name": "Neon Domain areas DO1:DO9",
+    "geo": {
+      "type": "GeoShape",
+      "box": "47.16582 -66.82463 17.9557 -99.11107"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "uid",
+      "description": "Unique ID within NEON database; an identifier for the record"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "named_location",
+      "description": "Name of the measurement location in the NEON database"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "date",
+      "description": "Date or date and time of measurement, observation, or collection event"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "event_id",
+      "description": "An identifier for the set of information associated with the event, which includes information about the place and time of the event"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "domain_id",
+      "description": "Unique identifier of the NEON domain"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "site_id",
+      "description": "NEON site code"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "plot_id",
+      "description": "Plot identifier (NEON site code_XXX)"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "individual_id",
+      "description": "Domain-level unique identifier for an individual: NEON.MOD.D##.######"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "growth_form",
+      "description": "The growth form classification"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "centimeter",
+      "name": "stem_diameter",
+      "description": "Cross-sectional stem diameter"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "centimeter",
+      "name": "measurement_height",
+      "description": "Height at which stemDiameter is measured"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "meter",
+      "name": "height",
+      "description": "Highest point of an individual or average height of a patch"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "uid_map",
+      "description": "Unique ID within NEON database; an identifier for the record from the mapping and tagging dataset"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "point_id",
+      "description": "Identifier for a point location"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "meter",
+      "name": "stem_distance",
+      "description": "Horizontal distance from stem to pointID location"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "degree",
+      "name": "stem_azimuth",
+      "description": "Azimuth relative to True North between stem and pointID location"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "taxon_id",
+      "description": "Species code, based on one or more sources"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "scientific_name",
+      "description": "Scientific name, associated with the taxonID. This is the name of the lowest level taxonomic rank that can be determined"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "taxon_rank",
+      "description": "The lowest level taxonomic rank that can be determined for the individual or specimen"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "uid_ppl",
+      "description": "Unique ID within NEON database; an identifier for the record from the peroplotperyear data"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "plot_type",
+      "description": "NEON plot type in which sampling occurred: tower, distributed or gradient"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "nlcd_class",
+      "description": "National Land Cover Database Vegetation Type Name"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "decimalDegree",
+      "name": "decimal_latitude",
+      "description": "The geographic latitude (in decimal degrees, WGS84) of the geographic center of the reference area"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "decimalDegree",
+      "name": "decimal_longitude",
+      "description": "The geographic longitude (in decimal degrees, WGS84) of the geographic center of the reference area"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "geodetic_datum",
+      "description": "Model used to measure horizontal position on the earth"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "meter",
+      "name": "easting",
+      "description": "Geographic coordinate specifying the east-west position of a point on the Earth's surface (Universal Transverse Mercator, UTM)"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "meter",
+      "name": "northing",
+      "description": "Geographic coordinate specifying the north-south position of a point on the Earth's surface (Universal Transverse Mercator, UTM)"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "utm_zone",
+      "description": "UTM zone"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "meter",
+      "name": "elevation",
+      "description": "Elevation (in meters) above sea level"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "meter",
+      "name": "elevation_uncertainty",
+      "description": "Uncertainty in elevation values (in meters)"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "stem_lat",
+      "description": "The geographic latitude (in decimal degrees, WGS84) of individual stem"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "stem_lon",
+      "description": "The geogrpahic longitude (in decimal degrees, WGS84) of individual stem"
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "individual stem level wood survey data",
+      "contentUrl": null,
+      "encodingFormat": "csv"
+    }
+  ]
+}
+
+    </script>
+    <style>
+      body {
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        margin: 0 auto;
+        padding: 1rem;
+        max-width: 800px;
+      }
+
+      #map {
+        height: 20rem;
+      }
+
+      #attributes-wrapper,
+      #jsonld-wrapper {
+        height: 20rem;
+        overflow-y: scroll;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      th {
+        border-bottom: 1px solid black;
+      }
+
+      th, td {
+        padding: 0.25rem;
+      }
+
+      table.listing td {
+        border: 1px solid #CCC;
+      }
+
+      table.listing tr td:first-child {
+          background-color: #EEE;
+      }
+
+      table.listing ul {
+        margin: 0 0 0 1.5rem;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>NEON Woody plant survey data: ACCE DTP analytical subset</h1>
+    <p><strong>Description:</strong> This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</p>
+
+    <h2>Bibliographic</h2>
+
+    <table class="listing">
+      <tr>
+        <td>Published</td>
+        <td>17/4/2024</td>
+      </tr>
+      <tr>
+        <td>Keywords</td>
+        <td>
+          <ul>
+            <li>shrubs</li>
+            <li>saplings</li>
+            <li>woody</li>
+        </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Funder</td>
+        <td>National science foundation</td>
+      </tr>
+      <tr>
+        <td>License</td>
+        <td>CC-0</td>
+      </tr>
+    </table>
+
+    <h2>Coverage</h2>
+
+    <h3>Temporal</h3>
+
+    <table class="listing">
+      <tr>
+        <td>Begin</td>
+        <td>2015-05-18</td>
+      </tr>
+      <tr>
+        <td>End</td>
+        <td>2018-11-16</td>
+      </tr>
+    </table>
+
+    <h3>Spatial</h3>
+    <pre><code></code></pre>
+    <div id="map"></div>
+
+    <h2>Attributes</h2>
+
+    <div id="attributes-wrapper">
+      <table id="attributes">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Unit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>uid</code></td>
+            <td>Unique ID within NEON database; an identifier for the record</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>named_location</code></td>
+            <td>Name of the measurement location in the NEON database</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>date</code></td>
+            <td>Date or date and time of measurement, observation, or collection event</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>event_id</code></td>
+            <td>An identifier for the set of information associated with the event, which includes information about the place and time of the event</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>domain_id</code></td>
+            <td>Unique identifier of the NEON domain</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>site_id</code></td>
+            <td>NEON site code</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>plot_id</code></td>
+            <td>Plot identifier (NEON site code_XXX)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>individual_id</code></td>
+            <td>Domain-level unique identifier for an individual: NEON.MOD.D##.######</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>growth_form</code></td>
+            <td>The growth form classification</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>stem_diameter</code></td>
+            <td>Cross-sectional stem diameter</td>
+            <td>centimeter</td>
+          </tr>
+          <tr>
+            <td><code>measurement_height</code></td>
+            <td>Height at which stemDiameter is measured</td>
+            <td>centimeter</td>
+          </tr>
+          <tr>
+            <td><code>height</code></td>
+            <td>Highest point of an individual or average height of a patch</td>
+            <td>meter</td>
+          </tr>
+          <tr>
+            <td><code>uid_map</code></td>
+            <td>Unique ID within NEON database; an identifier for the record from the mapping and tagging dataset</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>point_id</code></td>
+            <td>Identifier for a point location</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>stem_distance</code></td>
+            <td>Horizontal distance from stem to pointID location</td>
+            <td>meter</td>
+          </tr>
+          <tr>
+            <td><code>stem_azimuth</code></td>
+            <td>Azimuth relative to True North between stem and pointID location</td>
+            <td>degree</td>
+          </tr>
+          <tr>
+            <td><code>taxon_id</code></td>
+            <td>Species code, based on one or more sources</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>scientific_name</code></td>
+            <td>Scientific name, associated with the taxonID. This is the name of the lowest level taxonomic rank that can be determined</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>taxon_rank</code></td>
+            <td>The lowest level taxonomic rank that can be determined for the individual or specimen</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>uid_ppl</code></td>
+            <td>Unique ID within NEON database; an identifier for the record from the peroplotperyear data</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>plot_type</code></td>
+            <td>NEON plot type in which sampling occurred: tower, distributed or gradient</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>nlcd_class</code></td>
+            <td>National Land Cover Database Vegetation Type Name</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>decimal_latitude</code></td>
+            <td>The geographic latitude (in decimal degrees, WGS84) of the geographic center of the reference area</td>
+            <td>decimalDegree</td>
+          </tr>
+          <tr>
+            <td><code>decimal_longitude</code></td>
+            <td>The geographic longitude (in decimal degrees, WGS84) of the geographic center of the reference area</td>
+            <td>decimalDegree</td>
+          </tr>
+          <tr>
+            <td><code>geodetic_datum</code></td>
+            <td>Model used to measure horizontal position on the earth</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>easting</code></td>
+            <td>Geographic coordinate specifying the east-west position of a point on the Earth's surface (Universal Transverse Mercator, UTM)</td>
+            <td>meter</td>
+          </tr>
+          <tr>
+            <td><code>northing</code></td>
+            <td>Geographic coordinate specifying the north-south position of a point on the Earth's surface (Universal Transverse Mercator, UTM)</td>
+            <td>meter</td>
+          </tr>
+          <tr>
+            <td><code>utm_zone</code></td>
+            <td>UTM zone</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>elevation</code></td>
+            <td>Elevation (in meters) above sea level</td>
+            <td>meter</td>
+          </tr>
+          <tr>
+            <td><code>elevation_uncertainty</code></td>
+            <td>Uncertainty in elevation values (in meters)</td>
+            <td>meter</td>
+          </tr>
+          <tr>
+            <td><code>stem_lat</code></td>
+            <td>The geographic latitude (in decimal degrees, WGS84) of individual stem</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>stem_lon</code></td>
+            <td>The geogrpahic longitude (in decimal degrees, WGS84) of individual stem</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Distribution</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Format</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>individual stem level wood survey data</code></td>
+          <td><code>csv</code></td>
+          <td><a href="">Download</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+    <script>
+      var mymap = L.map('map').setView([32.56076, -82.96785], 1);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        maxZoom: 18,
+      }).addTo(mymap);
+
+      var polygon = L.polygon([[ 47.16582, -66.82463], [ 17.9557, -66.82463], [ 17.9557, -99.11107], [ 47.16582, -99.11107]]).addTo(mymap);
+    </script>
+  </body>
+</html>
